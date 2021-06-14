@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <title>Cadastrar</title>
+</head>
+
+    <style>
+    .button {
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 14px;
+        margin: 4px 2px;
+        cursor: pointer;
+    }
+    .button1 {
+        background-color: #7900b1;
+    }
+    .button2 {
+        background-color: #7900b1;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 12px;
+        margin: 4px 2px;
+        cursor: pointer;
+    }
+    textarea {
+        resize: none;
+    }
+    h2 {
+        font-family: Arial;
+        font-size: 18px;
+    }
+    p {
+        font-family: Arial;
+        text-align: justify;
+        font-size: 14px;
+    }
+    hr {
+        border-top: 1px solid rgb(102, 51, 153);
+    }
+    </style>
+
+    <body background="img\fundo2.png">
+
+        <table border="0" width="70%" align="center">
+            <tr>
+                <td height="150">
+                    <img src="img\logo.png">
+                  </td>
+  
+                <td align="right">
+                    <a href="index.html">
+                        <button class="button button1">Home</button>
+                      </a>
+                      <a href="quem-somos.html">
+                          <button class="button button1">Quem Somos</button>
+                      </a>  
+                      <a href="login.html">
+                          <button class="button button1">Login</button>
+                      </a>
+                </td>
+            </tr>
+        </table>
+
+      <table border="0" width="70%" align="center">
+          <tr>
+              <td>
+                  <h2>Entre em Contato</h2>
+                  <p>Fundado em 2002, a Terabyte! foi um dos pioneiros no comércio eletrônicos
+                    no Brasil e hoje é o maior e-commerce do segmento de tecnologia na América
+                    Latina.</p>
+
+                    <hr>
+
+                    <form>
+                        <br>Data de Nacimento:<br>
+                        <input type="date" class="boox" name="dataDenacimento"><br>
+
+                        <br>Seu email:<br>
+                        <input type="text" class="boox" name="email" placeholder="@gmail.com"><br>
+
+                        <br>Confirma email:<br>
+                        <input type="text" class="boox1" name="emails" placeholder="@gmail.com" multiple><br>
+
+                        <br>Senha:<br>
+                        <input type="password" class="boox" name="senha"><br>
+
+                        <br>Confirma senha:<br>
+                        <input type="password" class="boox" name="senha" multiple><br>
+
+                        <br>Descrição:<br>
+                        <textarea rows="4" cols="50"></textarea><br>
+                        <input type="submit" value="Cadastar" class="button2">
+
+                    </form>
+              </td>
+          </tr>
+      </table>
+    </body>
+</html>
